@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -7,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        varela: ["Varela Round", "sans-serif"],  // Add this line
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
